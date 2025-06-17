@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Studio Mabella</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <header class="cabecalho">
+    <div class="logo">
+      <img src="WhatsApp Image 2025-06-17 at 14.11.45.jpeg" alt="Logo Studio Mabella" width="100px" />
+    </div>
+
+    
+    <div class="menu-hamburguer" onclick="toggleMenu()">☰</div>
+
+  
+    <nav class="menu" id="menu">
+      <a href="#historia">Minha História</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#studio">Studio</a>
+      <a href="#contato">Contato</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+
+  <section id="home" class="hero">
+    <div class="texto-hero">
+      <h1>Studio Mabella</h1>
+      <p>Nail & Lash Design</p>
+      <a href="#contato" class="botao">Agende seu horário</a>
+    </div>
+  </section>
+
+
+  <section id="historia" class="sessao historia">
+    <h2>Minha História</h2>
+
+    <div class="conteudo-historia">
+      <div class="texto-historia">
+        <p>Durante a pandemia, decidi seguir minha paixão pela beleza. Após perder meu emprego, meu marido me sugeriu fazer um curso de unhas. No começo, tive muitas dúvidas, mas acabei descobrindo uma nova paixão e comecei a atender em casa. Depois de receber uma crítica negativa, fiquei desanimada, mas logo retomei meu sonho.</p>
+
+        <p>Trabalhei em uma multinacional por 2 anos, mas decidi deixar o emprego para investir no meu próprio negócio. Meu coordenador não queria me liberar, mas eu estava determinada. Com o dinheiro da minha rescisão, voltei a atender em casa.</p>
+
+        <p>O início foi difícil — poucas clientes, contas para pagar... Mas eu insisti. Com o tempo, o boca a boca começou a funcionar e meu negócio cresceu. Em apenas 3 meses, meu espaço ficou pequeno demais, então precisei procurar um novo local. Fiz também um curso de cílios e ampliei meus serviços.</p>
+
+        <p>Hoje, depois de 1 ano e 4 meses, tenho um negócio próspero, com agendas cheias de atendimentos e cursos. Compartilho minha experiência com outras pessoas e sempre digo: “Confie no processo, mesmo quando ele for doloroso. Vá até o seu limite e, quando superar os obstáculos, agradeça.”</p>
+
+        <p>Minha trajetória é marcada por determinação e perseverança. Tudo que conquistei é fruto do meu esforço e da minha paixão pela beleza.</p>
+      </div>
+
+      <div class="imagem-historia">
+        <img src="test.2.jfif" alt="Foto da Minha História" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="sobre" class="sessao">
+    <h2>Sobre Nós</h2>
+    <p>O Studio Mabella nasceu com a missão de valorizar a beleza e a autoestima das mulheres. Somos apaixonadas por cuidar de cada detalhe, oferecendo serviços de Nail Art e Lash Design com qualidade, carinho e profissionalismo.</p>
+    <p>Nosso espaço é acolhedor, moderno e pensado para que você tenha uma experiência única e especial.</p>
+  </section>
+
+
+  <section id="servicos" class="sessao">
+    <h2>Nossos Serviços</h2>
+    <ul class="lista-servicos">
+      <li><strong>Alongamento de Unhas</strong> - Gel na Tips | Fibra | Banho de Gel</li>
+      <li><strong>Nail Art Personalizada</strong> - Desenhos, pedrarias e tendências</li>
+      <li><strong>Lash Design</strong> - Cílios Volume Brasileiro | Híbrido</li>
+      <li><strong>Manutenção de Unhas e Cílios</strong></li>
+      <li><strong>Curso | Lash</strong></li>
+    </ul>
+  </section>
+
+
+  <section id="studio" class="sessao">
+    <h2>Nosso Studio</h2>
+    <p>Um espaço pensado especialmente para você. Aqui, conforto, elegância e bem-estar se encontram. Nosso studio conta com estrutura moderna, ambiente climatizado e todos os cuidados para sua segurança e satisfação.</p>
+
+    <div class="galeria">
+      <img src="test.2.jfif" alt="Foto do studio" />
+      <img src="foto2.jpg" alt="Espaço interno" />
+      <img src="foto3.jpg" alt="Mesa de unhas" />
+    </div>
+  </section>
+
+
+  <section id="contato" class="sessao">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato para agendar seu horário ou tirar dúvidas:</p>
+
+<form class="formulario" action="https://formsubmit.co/....@gmail.com@gmail.com" method="POST">
+  <input type="text" name="name" placeholder="Seu nome" required />
+  <input type="email" name="email" placeholder="Seu e-mail" required />
+  <input type="tel" name="whatsapp" placeholder="Seu WhatsApp" required />
+  <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+  <button type="submit" class="botao">Enviar</button>
+</form>
+
+
+  <footer class="rodape">
+    <div class="redes">
+      <a href="#">Instagram</a>
+      <a href="#">WhatsApp</a>
+    </div>
+    <p>&copy; 2025 Studio Mabella - Todos. os direitos reservados.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menu");
+      menu.classList.toggle("ativo");
+    }
+  </script>
+</body>
+</html>
