@@ -8,27 +8,41 @@
 </head>
 <body>
 
-  
+ 
+
+  <!-- VLibras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+
+  <!-- Cabeçalho -->
   <header class="cabecalho">
     <div class="logo">
       <img src="WhatsApp Image 2025-06-17 at 14.11.45.jpeg" alt="Logo Studio Mabella" width="100px" />
     </div>
 
-    
+    <!-- Botão hambúrguer para mobile -->
     <div class="menu-hamburguer" onclick="toggleMenu()">☰</div>
 
-  
+    <!-- Menu -->
     <nav class="menu" id="menu">
       <a href="#historia">Minha História</a>
       <a href="#sobre">Sobre</a>
       <a href="#servicos">Serviços</a>
       <a href="#studio">Studio</a>
       <a href="#contato">Contato</a>
-      <a href="#contato">Contato</a>
     </nav>
   </header>
 
-
+  <!-- Home -->
   <section id="home" class="hero">
     <div class="texto-hero">
       <h1>Studio Mabella</h1>
@@ -37,7 +51,7 @@
     </div>
   </section>
 
-
+  <!-- Minha História -->
   <section id="historia" class="sessao historia">
     <h2>Minha História</h2>
 
@@ -55,19 +69,19 @@
       </div>
 
       <div class="imagem-historia">
-        <img src="test.2.jfif" alt="Foto da Minha História" />
+        <img src="WhatsApp Image 2025-06-23 at 11.16.48.jpeg" alt="Foto da Minha História" />
       </div>
     </div>
   </section>
 
-
+  <!-- Sobre -->
   <section id="sobre" class="sessao">
     <h2>Sobre Nós</h2>
     <p>O Studio Mabella nasceu com a missão de valorizar a beleza e a autoestima das mulheres. Somos apaixonadas por cuidar de cada detalhe, oferecendo serviços de Nail Art e Lash Design com qualidade, carinho e profissionalismo.</p>
     <p>Nosso espaço é acolhedor, moderno e pensado para que você tenha uma experiência única e especial.</p>
   </section>
 
-
+  <!-- Serviços -->
   <section id="servicos" class="sessao">
     <h2>Nossos Serviços</h2>
     <ul class="lista-servicos">
@@ -76,27 +90,33 @@
       <li><strong>Lash Design</strong> - Cílios Volume Brasileiro | Híbrido</li>
       <li><strong>Manutenção de Unhas e Cílios</strong></li>
       <li><strong>Curso | Lash</strong></li>
+       <div class="galeria">
+      <img src="WhatsApp Image 2025-06-17 at 16.45.18.jpeg" alt="Foto do studio" />
+      <img src="WhatsApp Image 2025-06-17 at 16.45.19 (1).jpeg" alt="Espaço interno" />
+      <img src="WhatsApp Image 2025-06-23 at 11.16.47 (1).jpeg" alt="Mesa de unhas" />
+      <img src="WhatsApp Image 2025-06-23 at 11.17.28.jpeg" alt="Mesa de unhas" />
+    </div>
     </ul>
   </section>
 
-
+  <!-- Nosso Studio -->
   <section id="studio" class="sessao">
     <h2>Nosso Studio</h2>
     <p>Um espaço pensado especialmente para você. Aqui, conforto, elegância e bem-estar se encontram. Nosso studio conta com estrutura moderna, ambiente climatizado e todos os cuidados para sua segurança e satisfação.</p>
-
+    
     <div class="galeria">
-      <img src="test.2.jfif" alt="Foto do studio" />
-      <img src="foto2.jpg" alt="Espaço interno" />
-      <img src="foto3.jpg" alt="Mesa de unhas" />
+      
+      <img src="WhatsApp Image 2025-06-23 at 11.16.47.jpeg" alt="Espaço interno" />
+      <img src="WhatsApp Image 2025-06-23 at 11.18.40.jpeg" alt="Espaço interno" />
     </div>
   </section>
 
-
+  <!-- Contato -->
   <section id="contato" class="sessao">
     <h2>Fale Conosco</h2>
     <p>Entre em contato para agendar seu horário ou tirar dúvidas:</p>
 
-<form class="formulario" action="https://formsubmit.co/....@gmail.com@gmail.com" method="POST">
+<form class="formulario" action="https://formsubmit.co/....@gmail.com" method="POST">
   <input type="text" name="name" placeholder="Seu nome" required />
   <input type="email" name="email" placeholder="Seu e-mail" required />
   <input type="tel" name="whatsapp" placeholder="Seu WhatsApp" required />
@@ -104,20 +124,19 @@
   <button type="submit" class="botao">Enviar</button>
 </form>
 
-
+  <!-- Rodapé -->
   <footer class="rodape">
     <div class="redes">
       <a href="#">Instagram</a>
       <a href="#">WhatsApp</a>
     </div>
-    <p>&copy; 2025 Studio Mabella - Todos. os direitos reservados.</p>
+    <p>&copy; 2025 Studio Mabella - Todos os direitos reservados.</p>
   </footer>
 
-  <script>
-    function toggleMenu() {
-      const menu = document.getElementById("menu");
-      menu.classList.toggle("ativo");
-    }
-  </script>
+  
+
+
+  
+
 </body>
 </html>

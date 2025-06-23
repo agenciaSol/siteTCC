@@ -12,7 +12,7 @@ body {
   scroll-behavior: smooth;
 }
 
-
+/* Cabeçalho */
 .cabecalho {
   background-color: #a63f3f;
   padding: 20px;
@@ -47,7 +47,7 @@ body {
   background-color: #8b1a1a;
 }
 
-
+/* Botão hamburguer */
 .menu-hamburguer {
   display: none;
   font-size: 30px;
@@ -55,7 +55,7 @@ body {
   user-select: none;
 }
 
-
+/* Hero */
 .hero {
   background-color: #f1d1d1;
   padding: 100px 20px;
@@ -88,7 +88,7 @@ body {
   background-color: #8b1a1a;
 }
 
-
+/* Seções gerais */
 .sessao {
   padding: 60px 20px;
   text-align: center;
@@ -105,9 +105,10 @@ body {
   text-align: justify;
   max-width: 700px;
   margin: 0 auto 20px auto;
+  text-align: center;
 }
 
-
+/* Minha História */
 .historia .conteudo-historia {
   display: flex;
   align-items: center;
@@ -127,7 +128,7 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-
+/* Serviços */
 .lista-servicos {
   list-style: none;
   padding: 0;
@@ -139,7 +140,7 @@ body {
   font-size: 18px;
 }
 
-
+/* Galeria */
 .galeria {
   display: flex;
   justify-content: center;
@@ -240,5 +241,28 @@ body {
   .imagem-historia img {
     width: 90%;
   }
-  
+  #btnTopo {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  background-color: var(--cor-primaria);
+  color: var(--cor-botao);
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+#btnTopo svg {
+  width: 24px;
+  height: 24px;
+}
+
+#btnTopo:hover {
+  background-color: var(--cor-primaria-hover);
+}
 }
