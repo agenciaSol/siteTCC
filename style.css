@@ -102,7 +102,7 @@ body {
 
 .sessao p {
   font-size: 18px;
-  text-align: justify;
+  text-align:justify;
   max-width: 700px;
   margin: 0 auto 20px auto;
   text-align: center;
@@ -266,3 +266,4 @@ body {
   background-color: var(--cor-primaria-hover);
 }
 }
+
