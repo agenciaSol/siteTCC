@@ -25,7 +25,7 @@
   <!-- Cabeçalho -->
   <header class="cabecalho">
     <div class="logo">
-      <img src="WhatsApp Image 2025-06-17 at 14.11.45.jpeg" alt="Logo Studio Mabella" width="100px" />
+      <img src="Logomb.png" alt="Logo Studio Mabella" width="100px" />
     </div>
 
     <!-- Botão hambúrguer para mobile -->
@@ -39,6 +39,8 @@
       <a href="#studio">Studio</a>
       <a href="#contato">Contato</a>
     </nav>
+    <button class="toggle-dark" onclick="toggleDarkMode()">🌙</button>
+    
   </header>
 
 
@@ -106,8 +108,8 @@
     
     <div class="galeria">
       
-      <img src="WhatsApp Image 2025-06-23 at 11.16.47.jpeg" alt="Espaço interno" />
-      <img src="" alt="Espaço interno" />
+      <img src="WhatsApp Image 2025-06-23 at 11.16.47.jpeg" alt="Espaço interno"  />
+    
     </div>
   </section>
 
@@ -130,9 +132,32 @@
       <a href="#">Instagram</a>
       <a href="#">WhatsApp</a>
     </div>
-    <p>&copy; 2025 Studio Mabella - Todos os direitos reservados.</p>
+    <p class="p_rodape">&copy; 2025 Studio Mabella - Todos os direitos reservados.</p>
   </footer>
 
+  <script>
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  }
+</script>
+
+
+
+<script>
+  const btn = document.getElementById('toggle-dark-btn');
+  const body = document.body;
+
+  // Carrega o modo salvo
+  if (localStorage.getItem('dark-mode') === 'enabled') {
+    body.classList.add('dark-mode');
+    btn.textContent = '☀️';
+  } else {
+    btn.textContent = '🌙';
+  }
+
+  
+     
+</script>
 
 </body>
 </html>
