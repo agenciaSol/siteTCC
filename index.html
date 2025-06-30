@@ -31,6 +31,7 @@
     <!-- Botão hambúrguer para mobile -->
     <div class="menu-hamburguer" onclick="toggleMenu()">☰</div>
 
+
     <!-- Menu -->
     <nav class="menu" id="menu">
       <a href="#historia">Minha História</a>
@@ -153,12 +154,15 @@
     btn.textContent = '☀️';
   } else {
     btn.textContent = '🌙';
-  }
-
-  
-     
+  }     
 </script>
 
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("ativo");
+  }
+</script>
 
 
 
